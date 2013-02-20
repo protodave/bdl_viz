@@ -1,0 +1,82 @@
+body {
+    background-color: #2f2f2f;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto 100px;
+}
+
+#building {
+    width: 800px;
+    float: left;
+    overflow: hidden;
+}
+
+#dropzone {
+    width: 150px;
+    float: left;
+    border: 2px dashed #BBBBBB;
+    border-radius: 5px 5px 5px 5px;
+    color: #BBBBBB;
+    font: 16pt bold;
+    padding: 25px;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #222;
+}
+
+#dropzone #filename {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#dropzone #filename ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#dropzone #filename ul li {
+
+}
+
+#details {
+    display: none;
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #bbb;
+    font-size: 20px;
+    line-height: 42px
+}
+
+#details strong {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #222;
+}
+
+#data {
+    width: 300px;
+    height: 250px;
+    float: left;
+    white-space: pre;
+    color: #bbb;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+#data .error {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: #bbb;
+}
